@@ -205,3 +205,7 @@ p{
     text-align: justify;
     padding: 5px;
 }
+
+#menu p{
+    text-align: center;
+}
