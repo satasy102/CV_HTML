@@ -71,9 +71,9 @@ person.projects.forEach(e => {
             <p>- Database: ${e.database} </p>
             <p>- Công nghệ: ${e.technology} </p>
             <p>- Tài khoản admin: ${e.accountAdmin}</p>
-            <p>- Trang chủ: ${e.homeLink}</p>
-            <p>- Trang Admin: ${e.adminLink}</p>
-            <p>- Link Github: ${e.gitHub}</p>        
+            <p>- Trang chủ: <a href="${e.homeLink}" target = "blank">${e.homeLink}</a></p>
+            <p>- Trang Admin: <a href="${e.homeLink}" target = "blank">${e.adminLink}</a></p>
+            <p>- Link Github: <a href="${e.gitHub}" target = "blank">${e.gitHub}</a></p>        
     </div>
     <div class="isotope-item inline-div" data-type="${e.id}">
     <p>- Các công việc cá nhân đã làm:</p>

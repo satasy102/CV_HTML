@@ -54,7 +54,7 @@ hr, .t-border-color-bg {
 }
 
 .o-media {
-    height: 4em;
+    min-height: 5em;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: start;
@@ -82,7 +82,7 @@ hr, .t-border-color-bg {
 }
 
 .inline-div {
-    width: 100% !important;
+    width: 96% !important;
 }
 
 [data-aos^=fade][data-aos^=fade].aos-animate {
@@ -199,4 +199,9 @@ a {
 
 a:hover {
     color: #ffffff;
+}
+
+p{
+    text-align: justify;
+    padding: 5px;
 }
