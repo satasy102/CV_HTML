@@ -1,12 +1,16 @@
 class Person {
-    constructor(id, avatar, name, dob, phone, address, gitHub, interests, shortTarget, longTarget, skills, projects, experiences, educations, certificates, referencePersons, introduce) {
+    constructor(id, avatar, name, dob, phone, email, address, facebook, instagram, gitHub, qrCode,interests, shortTarget, longTarget, skills, projects, experiences, educations, certificates, referencePersons, introduce) {
         this.id = id;
         this.avatar = avatar;
         this.name = name;
         this.dob = dob;
         this.phone = phone;
+        this.email = email;
         this.address = address;
+        this.facebook = facebook;
+        this.instagram = instagram;
         this.gitHub = gitHub;
+        this.qrCode = qrCode;
         this.interests = interests;
         this.shortTarget = shortTarget;
         this.longTarget = longTarget;
