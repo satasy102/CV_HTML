@@ -23,7 +23,7 @@ document.querySelector("#profile").innerHTML += `
                   <li><i class="icofont-rounded-right"></i> <strong>Số điện thoại:</strong> ${person.phone}</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Email:</strong>${person.email}</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Địa chỉ:</strong> ${person.address}</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Link Github:</strong> ${person.gitHub}</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Link Github:</strong> <a href="${person.gitHub}" target="blank">${person.gitHub}</a></li>
                   </ul>
               </div>
               <div class="col-lg-6">
