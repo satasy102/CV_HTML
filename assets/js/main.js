@@ -24,11 +24,11 @@ document.querySelector("#profile").innerHTML += `
                   <li><i class="icofont-rounded-right"></i> <strong>Email:</strong>${person.email}</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Địa chỉ:</strong> ${person.address}</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Link Github:</strong> <a href="${person.gitHub}" target="blank">${person.gitHub}</a></li>
+                  <li><i class="icofont-rounded-right"></i> <strong>CV PDF:</strong> <a href="${person.cvOffline}" target="blank">${person.cvOffline}</a></li>
                   </ul>
               </div>
               <div class="col-lg-6">
                   <div class = "text-center"><img src="${person.qrCode}"/></div>
-                  <div class = "text-center">Tải CV</div>
               </div>
             </div>
 `;
